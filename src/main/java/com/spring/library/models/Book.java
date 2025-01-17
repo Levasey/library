@@ -18,8 +18,7 @@ public class Book {
     @Min(value = 0, message = "Age should be greater than 0")
     private int year_published;
 
-    public Book() {
-    }
+    public Book() {}
 
     public Book(int book_id, String book_name, String author, int year_published) {
         this.book_id = book_id;
